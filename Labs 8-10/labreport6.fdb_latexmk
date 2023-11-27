@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701112070 "c:/Users/pehul/Desktop/Labs 8-10/labreport6.tex" "labreport6.pdf" "labreport6" 1701112076 0
+["pdflatex"] 1701119617 "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" "labreport6.pdf" "labreport6" 1701119619 0
   "C:/Users/pehul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697201433 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/pehul/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1695920014 11548 b28e8abb08eafa9615fe73d2f55e1b8e ""
   "C:/Users/pehul/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695830781 24142036 3926ffd2b37070b3269ffb388ad71743 ""
@@ -24,6 +24,7 @@
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247593066 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1247593067 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
+  "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247593067 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247593067 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247593066 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247593067 36281 c355509802a035cadc5f15869451dcee ""
@@ -31,6 +32,7 @@
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247593067 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247593067 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247593067 32734 69e00a6b65cedb993666e42eedb3d48f ""
+  "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247593067 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247593066 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247593067 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -211,12 +213,12 @@
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1686252040 12691 ddae4e0162a664f166015d992388b742 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Figure_8-1.png" 1699392546 142153 15a49975f17ec0ef50f917b06533f2a5 ""
-  "c:/Users/pehul/Desktop/Labs 8-10/labreport6.tex" 1701112069 12670 85c71fb2e62e2de27cdbfe51a5a3019e ""
-  "labreport.sty" 1698983630 787 5f79b04e7ec98989e93f7d2136a8a82c ""
-  "labreport6.aux" 1701112075 4046 f5476eacd1c5eb32389e2214319c887c "pdflatex"
-  "labreport6.out" 1701112075 4549 079d742fe861723bba1452dca397f467 "pdflatex"
-  "labreport6.tex" 1701112069 12670 85c71fb2e62e2de27cdbfe51a5a3019e ""
+  "Figure_8-1.png" 1701117527 142153 15a49975f17ec0ef50f917b06533f2a5 ""
+  "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" 1701119613 14281 d3b7616c6954639dec0ddcf753e3d3af ""
+  "labreport.sty" 1701117527 787 5f79b04e7ec98989e93f7d2136a8a82c ""
+  "labreport6.aux" 1701119619 4046 2cb17593d15ce9fad542041a055d1057 "pdflatex"
+  "labreport6.out" 1701119619 4549 079d742fe861723bba1452dca397f467 "pdflatex"
+  "labreport6.tex" 1701119613 14281 d3b7616c6954639dec0ddcf753e3d3af ""
   (generated)
   "labreport6.aux"
   "labreport6.log"

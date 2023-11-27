@@ -86,8 +86,19 @@ The objective is to measure the time constant of an RC circuit in order to verif
 \section{Relevant Theory/Background Information}
 
 \subsection{Network Analysis}
-\lipsum[1]
-
+In terms of relevant theory there is a wide variety of methods to calculate the current, voltage, and resistance across a circuit or individual elements. The primary base for all of these methods are Kirchoff's Voltage and Current
+laws which show the sum of the currents or voltages across a circuit will equal zero ergo: \\
+\[0 = \sum_{i=1}^{n} V_{i}\]\\
+and: \\
+\[0 = \sum_{i=1}^{n} I_{i}\]\\
+With the understanding of Kirchoff's Laws the methods of mesh current analysis, node voltage analysis, and superposition. 
+When analysing using mesh current analysis the first step is to break a circuit into meshes which are smaller pieces of a circuit and are functionally the most basic circuit possible.
+Then apply Kirchoff's Voltage Law where the voltage across each resistor will be accounted for with Ohm's Law, V = IR, with current in resistors which are located in two loops the currents in each loop must be subtracted. Finally simply solve for each unknown element in each equation.
+When analysing using Node Voltage Analysis the first step is to selecting a node as reference or ground. Then use Kirchoff's Current Law for each node and repeat the process described previously.
+When utilizing Superposition the first step is to replace all but one current or voltage source with either an open circuit or short circuit respectively. Then apply whatever analysis functions best and repeat the process until all sources have been used. Finally sum all of the current and voltage values to solve for each respectively as seen here:
+\[V = \sum_{i=1}^{n} V_{i}\]\\
+and here: \\
+\[I = \sum_{i=1}^{n} I_{i}\]\\  
 \subsection{Thevenin and Norton Equivalent Circuits}
 \lipsum[1]
 
