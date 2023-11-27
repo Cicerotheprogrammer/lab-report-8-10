@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.27)  27 NOV 2023 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.27)  27 NOV 2023 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -706,26 +706,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-
- []
-
-[4]
 Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
- []
-
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
@@ -736,7 +721,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--334
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
@@ -746,7 +736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--343
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
@@ -761,7 +751,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--348
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
@@ -778,13 +773,13 @@ Package rerunfilecheck Info: File `labreport6.out' has not changed.
 Here is how much of TeX's memory you used:
  32985 strings out of 475248
  783580 string characters out of 5757813
- 1956801 words of memory out of 5000000
+ 1957801 words of memory out of 5000000
  53936 multiletter control sequences out of 15000+600000
  565070 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,11n,131p,789b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\pehul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on labreport6.pdf (6 pages, 326913 bytes).
+Output written on labreport6.pdf (6 pages, 327158 bytes).
 PDF statistics:
  234 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
