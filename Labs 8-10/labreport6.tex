@@ -1,0 +1,348 @@
+\documentclass[a4paper]{article}
+\usepackage{labreport}
+
+\begin{document}
+
+
+\begin{titlepage}
+\thispagestyle{fancy} %For the left header
+\rhead{}
+\chead{}
+\lhead{ECGR 2155-Section L94}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+\renewcommand{\headrulewidth}{0pt} %Removes horizontal line
+    \begin{center}
+        \vspace*{1cm}
+        
+      
+       \Large\textbf{University of North Carolina at Charlotte \\[1pt]
+	Department of Electrical and Computer Engineering} \\[2pt]
+\textit{Laboratory Report 3} \\[5pt]
+\textbf{Network Analysis\\[5pt]
+Thevenin and Norton Equivalent Circuits\\[5pt]
+Time Constant of a RC Circuit\\
+}
+
+\noindent\rule{15cm}{0.4pt}
+\vfill
+        \vspace{0.5cm}
+        \textit{Laboratory Experiment Reports 8,9,10} \\
+		Author: Patrick Hultberg\\
+		Lab Partner: Anthony Grancagnolo	\\
+		Date: "12/1/2023" \\
+        
+        \vspace{1.5cm}
+        
+        
+        
+        \vfill
+		\vfill
+        
+       \large This report was submitted in compliance with UNCC POLICY 407\\
+THE CODE OF STUDENT ACADEMIC INTEGRITY, Revised November 6, 2014
+(http://legal.uncc.edu/policies/up-407) \_\_. (PEH) 
+        \vspace{0.8cm}
+        
+    
+
+    \end{center}
+\end{titlepage}
+
+
+\section{Objectives}
+
+\subsection{Network Analysis}
+The objective is to analyze a circuit and measure the real values to validate the calculated values.
+\subsection{Thevenin and Norton Equivalent Circuits}
+The objective of the lab is to utilize the Thevenin and Norton methods to calculate the current and voltage across any one of several resistors in a circuit and verify the calculated values by measuring the values in the circuits.
+\subsection{Time Constant of a RC Circuit}
+The objective is to measure the time constant of an RC circuit in order to verify the calculated values.
+\section{Equipment List}
+\subsection{Network Analysis}
+
+\begin{itemize}
+    \item Digital Multimeter
+    \item DC Power Supply
+    \item Resistors: $470\Omega$, $1K\Omega$ (2), $5.1k\Omega$, $10k\Omega$ 
+\end{itemize}
+
+\subsection{Thevenin and Norton Equivalent Circuits}
+\begin{itemize}
+    \item Digital Multimeter
+    \item DC Power Supply
+    \item Resistors: $1.2k\Omega$, $3.3k\Omega$, $10k\Omega$
+\end{itemize}
+\subsection{Time Constant of a RC Circuit}
+\begin{itemize}
+    \item Digital Multimeter
+    \item DC Power Supply
+    \item Resistor: $20k\Omega$
+    \item Capacitor: $2,200 \mu$F
+    \item Alligator (Clips) Jumper
+\end{itemize}
+
+\section{Relevant Theory/Background Information}
+
+\subsection{Network Analysis}
+\lipsum[1]
+
+\subsection{Thevenin and Norton Equivalent Circuits}
+\lipsum[1]
+
+\subsection{Time Constant of a RC Circuit}
+\lipsum[1]
+
+\section{Experimental Data/Analysis}
+
+\subsection{Network Analysis}
+
+\begin{center}
+    \small\textbf{Table 8-1: Resistors Values}
+    \begin{tabular}{|p{3 cm}|p{3cm}|p{3 cm}|p{3 cm}|}
+        \hline
+        Resistance & Measured $(K\Omega)$ & Color Code $(K\Omega)$ & Error (\%) \\
+        \hline
+        $R_{1}$ & $5.047 k\Omega$ & $5.1k\Omega$ & 1.0392 \% \\
+        \hline
+        $R_{2}$ & $467.5 \Omega$ & $470\Omega$& .5319\% \\
+        \hline
+        $R_{3}$ & $9.935 k\Omega$ & $10 k\Omega$& .65\% \\
+        \hline
+        $R_{4}$ & $.999 k\Omega$ & $1 k\Omega$& .1\% \\
+        \hline
+        $R_{5}$ & $.997 k\Omega$ & $1 k\Omega$ & .3\% \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \small\textbf{Table 8-2: Mesh Currents}
+    \begin{tabular}{|p{3 cm}|p{3cm}|p{3 cm}|p{3 cm}|}
+        \hline
+        Current & Measured (mA) & Calculated (mA) & Error (\%) \\
+        \hline
+        $I_{A}$ & .806 mA & .813 mA & .861\%  \\
+        \hline
+        $I_{B}$ & .043 mA & .0404 mA & 5.581\% \\
+        \hline
+        $I_{C}$ & .910 mA & .913 mA & .329\% \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \small\textbf{Table 8-3: Resistors Voltages}
+    \begin{tabular}{|p{2 cm}|p{2cm}|p{2 cm}|p{2 cm}|p{2 cm}|p{2 cm}|}
+        \hline
+         & Measured & Mesh Method & Nodal Analysis & Superposition & Simulation \\
+        \hline
+        $V_{R1}$ & 4.14 V & 4.1463 V & 4.43368 V & 4.1466 V & 4.147 V \\
+        \hline
+        $V_{R2}$ & .021 V & .018988 V & .018 V & .01897 V & .01897 V \\
+        \hline
+        $V_{R3}$ & 9.123 V & 9.13 V & 9.128 V & 9.158 V & 9.128 V \\
+        \hline
+        $V_{R4}$ .852 V & & .854 V & .853 V & .853 V & .8534 V \\
+        \hline
+        $V_{R5}$ & .873 V & .8721 V & .872 V & .873 V & .8724 V \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \small\textbf{Table 8-4: Resistors Current}
+    \begin{tabular}{|p{2 cm}|p{2cm}|p{2 cm}|p{2 cm}|p{2 cm}|p{2 cm}|}
+        \hline
+         & Measured & Mesh Method & Nodal Analysis & Superposition & Simulation \\
+        \hline
+        $I_{R1}$ & .803 mA  & .813 mA & .8131 mA & .81305 mA &.8131 mA \\
+        \hline
+        $I_{R2}$ & .043 mA & .0406 mA & .0404 mA & .04037 mA  & .04034 mA\\
+        \hline
+        $I_{R3}$ & .911 mA & .913 mA & .9128 mA & .91276 mA & .9128 mA \\
+        \hline
+        $I_{R4}$ &.825 mA & .8536 mA & .853 mA &  .853 mA & .8534 mA\\
+        \hline
+        $I_{R5}$ & .834 mA & .8271 mA & .872 mA & .873 mA & .8724 mA\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \begin{figure}[H]\label{fig8-2}
+        \begin{center}
+            \includegraphics[width = 16 cm]{Figure_8-1}\\
+            \small\textbf{Figure 8-2: Simulated model of the circuit in Figure 8-1}\\    
+        \end{center}
+    \end{figure}
+\end{center}
+
+
+\subsection{Thevenin and Norton Equivalent Circuits}
+
+
+\begin{center}
+    \small\textbf{Table 9-1: Calculated Voltage and Current for Resistor R3}
+    \begin{tabular}{|p{3 cm}|p{3cm}|p{3 cm}|}
+        \hline
+         & Thevenin Equivalent & Norton Equivalent\\
+        \hline
+        $I_{R3}$ & 4.9 mA & 4.9 mA  \\
+        \hline
+        $V_{R3}$ & 16.17 V & 16.17 V  \\
+        \hline
+        
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \small\textbf{Table 9-2: Measured Thevenin and Norton Equivalents}
+    \begin{tabular}{|p{3 cm}|p{3cm}|p{3 cm}|p{3 cm}|}      
+        \hline
+        \multicolumn{2}{|c|}{Thevenin Equivalent} & \multicolumn{2}{|c|}{Norton Equivalent}  \\
+        \hline
+        $v_{TH}$ & 21.43 V & $i_{N}$ & 18.3 mA \\
+        \hline
+        $R_{TH}$ & $1.056k\Omega$ & $R_{N}$ & $1.056k\Omega$ \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \small\textbf{Table 9-3: Measured Voltage and Current for Resistor R3}
+    \begin{tabular}{|p{3 cm}|p{3 cm}|p{3 cm}|p{3 cm}|}
+        \hline
+        & Figure 9-3 & Thevenin Equivalent & Norton Equivalent \\
+        \hline
+        $I_{R3}$ & 4.961 mA & 4.961 mA & 4.596 mA \\
+        \hline
+        $V_{R3}$ & 16.19 V & 16.18 V & 15 V\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Time Constant of a RC Circuit}
+\pagebreak
+\begin{center}
+    \small\textbf{Table 10-1: Data Table for RC Time Constant}\\
+    \begin{tabular}{|p{2 cm}|p{2 cm}|p{2 cm}|p {2 cm}|p {2 cm}|p{2 cm}|}
+        \hline
+        Time (min:sec) & \multicolumn{3}{|c|}{Current (mA)} & Resistor Voltage (V) & Capacitor Voltage (V) \\
+        \hline
+        & Trial 1 & Trial 2 & Average & & \\
+        \hline
+        0:00 & 1.745 mA & 1.745 mA & 1.745 mA & 34.9 V  & 0 V \\
+        \hline
+        0:15 & 1.242 mA & 1.24 mA & 1.241 mA & 24.82 V & 10.08 V \\
+        \hline
+        0:30 & .901 mA & .900 mA & .9005 mA & 18.01 V &  16.86 V \\
+        \hline
+        0:45 $\tau$ & .662 mA & .666 mA & .664 mA & 13.28 V & 21.62 V \\
+        \hline
+        1:00 & .490 mA & .500 mA & .495 mA & 9.9 V & 25 V \\
+        \hline
+        1:15 & .365 mA & .373 mA & .369 mA & 7.38 V & 27.52 V \\
+        \hline
+        1:30 & .277 mA & .274 mA & .2755 mA & 5.51 V & 29.39 V \\
+        \hline
+        1:45 & .212 mA & .207 mA & .2095 mA & 4.19 V & 30.71 V \\
+        \hline
+        2:00 & .165 mA & .158 mA & .1615 mA & 3.23 V & 31.67 V \\
+        \hline
+        2:15 & .125 mA & .112 mA & .1185 mA & 2.37 V & 32.53 V \\
+        \hline
+        2:30 & .100 mA & .092 mA & .096 mA & 1.92 V & 32.98 V \\
+        \hline
+        2:45 & .076 mA & .072 mA & .074 mA & 1.48 V & 33.42 V \\
+        \hline
+        3:00 & .062 mA & .057 mA & .0595 mA & 1.19 V & 33.71 V \\
+        \hline
+        3:15 & .050 mA & .045 mA & .0475 mA & .95 V & 33.95 V \\
+        \hline
+        3:30 & .041 mA & .036 mA & .0385 mA & .77 V & 34.13 V \\
+        \hline
+        3:45 & .034 mA & .029 mA & .0315 mA & .63 V & 34.27 V \\
+        \hline
+        4:00 & .028 mA & .024 mA & .026 mA & .52 V & 34.38 V \\
+        \hline
+        4:15 & .023 mA & .020 mA & .0215 mA & .43 V & 34.47 V \\
+        \hline
+        4:30 & .020 mA & .016 mA & .018 mA & .36 V & 34.54 V \\
+        \hline
+        4:45 5$\tau$ & .017 mA & .014 mA & .0155 mA & .31 V & 34.59 V \\
+        \hline
+        5:00 & .015 mA & .012 mA & .0135 mA & .27 V & 34.63 V \\
+        \hline
+        5:15 & .013 mA & .010 mA & .0115 mA & .23 V & 34.67 V \\
+        \hline
+        5:30 & .011 mA & .009 mA & .010 mA & .2 V & 34.7 V \\
+        \hline
+        5:45 & .010 mA & .008 mA & .009 mA & .18 V & 34.72 V \\
+        \hline
+        6:00 & .009 mA & .007 mA & .008 mA & .16 V & 34.74 V \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\section{Conclusions}
+
+\subsection{Network Analysis}
+
+Each method of calculation will introduce error due to its assumption of ideal conditions. Furthermore, each almost all methods of calculations
+will give similar value but will vary in precision.
+
+\subsection{Thevenin and Norton Equivalent Circuits}
+
+Thevenin and Norton equivalent circuits are way to reduce circuits to a simpler form that makes finding current though, voltage in, and resistance in a circuit. The Norton Current and Thevenin Voltage
+will be the values across the load resistor. Norton Resistance equals Thevenin Resistance and the Thevenin Voltage is equal to the Thevenin Resistance times the Norton Current.  
+
+\subsection{Time Constant of a RC Circuit}
+
+As a capacitor is charged current will decrease until the capacitor is fully charged thus making an open circuit. Furthermore, the voltage will be collected into the capacitor as the voltage across the resistor goes down.
+
+\section{Post Lab}
+
+\subsection{Network Analysis}
+
+\begin{enumerate}
+    \item From the data obtained in this experiment, calculations and simulations; discuss on the validity of Mesh Analysis, Nodal Analysis, and superposition.\\
+\end{enumerate}
+    
+
+\subsection{Thevenin and Norton Equivalent Circuits}
+
+\begin{enumerate}
+    \item From the data obtained in this experiment and prelab calculations simulations; discuss on\\
+    \begin{enumerate}
+        \item Observations regarding the current through resistor R3.\\
+        \item Observations regarding the voltage across resistor R3.\\
+        \item Observations regarding the Thevenin equivalent.\\
+        \item Observations regarding the Norton equivalent.\\
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{Time Constant of a RC Circuit}
+
+\begin{enumerate}
+    \item From the data obtained in this experiment in a single graph; \\
+    \begin{enumerate}
+        \item Plot $V_{R}$ vs. time \\
+        \item Plot $V_{c}$ vs. time \\
+    \end{enumerate}
+    \item After the graphs have been completed, do the following: \\
+    \begin{enumerate}
+        \item Describe the capacitor voltage behavior from 0 through $5\tau$, in terms of initial and final voltage magnitude, linearity and rate of change. \\
+        \item Describe the resistor voltage behavior from 0 through $5\tau$, in terms of initial and final voltage magnitude, linearity and rate of change. \\
+        \item To how many volts has $V_{c}$ charged in one time constant?
+        \item To what \% has the capacitor charged to at this point?
+        \item Using the equation in the introduction section of this experiment, show the calculation of $V_{c}$ for a time equal to one time constant.
+        \item How many volts are across the resistor at the end of one time constant? What \% is this of the total possible voltage change?
+        \item From the graphs read the values of capacitor and resistor voltage at 4 minutes.
+        \item Calculate the values of capacitor and resistor voltage at 4 minutes.
+        \item From the results of g and h above, what do you conclude about the accuracy of your graphs?
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
