@@ -83,6 +83,7 @@ The objective is to measure the time constant of an RC circuit in order to verif
     \item Alligator (Clips) Jumper
 \end{itemize}
 
+\pagebreak
 \section{Relevant Theory/Background Information}
 
 \subsection{Network Analysis}
@@ -100,11 +101,19 @@ When utilizing Superposition the first step is to replace all but one current or
 and here: \\
 \[I = \sum_{i=1}^{n} I_{i}\]\\  
 \subsection{Thevenin and Norton Equivalent Circuits}
-\lipsum[1]
+When doing circuit analysis there are occasions when the resistance, voltage, and current at specific terminals and there are two main theorems to conduct these calculations, Thevenin and Norton's theorem. Each theorem abides by Ohm's Law but it is 
+focused on the the premise that $R_{Thevenin}$ is equal to $R_{Norton}$ and in the the Ohm's Law equation for these theorems is $V_{oc}$ = $I_{sc}$ * $R_{thevenin}$ or $R_{norton}$. $V_{oc}$ is equal to $V_{thevenin}$ and $I_{sc}$ is equal to $I_{norton}$.
+The objective of both theorems is to simplify the circuit to an equivalent resistance , $R_{Thevenin}$ or $R_{Norton}$, and a source, $V_{thevenin}$ with $R_{Thevenin}$ in series or $I_{norton}$ with $R_{Norton}$ in parallel, with a load resistor attached at the terminals. To calculate the previously mentioned equivalent resistance the load resistor must be removed and
+"turn off" all the sources in the circuit if all are independent sources and then calculate the resistance. To find $V_{thevenin}$ simply calculate voltage across the resistor parallel to the open circuit using any method preferable to find the open circuit voltage. If given the short circuit current and the resistance $V_{thevenin}$ is simply the multiplication
+of these two values. In the case of Norton equivalent cirucits repeat the process to calculate the $R_{Norton}$ then solve for $I_{sc}$ by placing a short circuit across the terminals and calculate the current flowing through the short or solve for $V_{oc}$ and solve for the current using $R_{Norton}$.    
 
 \subsection{Time Constant of a RC Circuit}
-\lipsum[1]
 
+The voltage and current change in a capacitor is a natural exponential relationship in the case of charging for voltage the value is found by the expression:
+\[V_{c} = V_{S}(1-e^(-t/\tau))\]
+wherein $\tau$ is equal to equivalent resistance times equivalent capacitence and t is the time passed since the switch which determines when voltage is passing through a capacitor.
+Once a steady state is reached at a factor of $\tau$ the change of voltage is no longer significant and that means the capacitor is holding its max charge which is calculated by Q = CV.  
+\pagebreak
 \section{Experimental Data/Analysis}
 
 \subsection{Network Analysis}
@@ -190,6 +199,7 @@ and here: \\
     \end{figure}
 \end{center}
 
+\pagebreak
 
 \subsection{Thevenin and Norton Equivalent Circuits}
 
@@ -233,9 +243,9 @@ and here: \\
         \hline
     \end{tabular}
 \end{center}
-
-\subsection{Time Constant of a RC Circuit}
 \pagebreak
+\subsection{Time Constant of a RC Circuit}
+
 \begin{center}
     \small\textbf{Table 10-1: Data Table for RC Time Constant}\\
     \begin{tabular}{|p{2 cm}|p{2 cm}|p{2 cm}|p {2 cm}|p {2 cm}|p{2 cm}|}
@@ -313,6 +323,7 @@ will be the values across the load resistor. Norton Resistance equals Thevenin R
 
 As a capacitor is charged current will decrease until the capacitor is fully charged thus making an open circuit. Furthermore, the voltage will be collected into the capacitor as the voltage across the resistor goes down.
 
+\pagebreak
 \section{Post Lab}
 
 \subsection{Network Analysis}
@@ -330,9 +341,13 @@ As a capacitor is charged current will decrease until the capacitor is fully cha
     \item From the data obtained in this experiment and prelab calculations simulations; discuss on\\
     \begin{enumerate}
         \item Observations regarding the current through resistor R3.\\
+        The current through resistor R3 is equal to 4.961 mA which is equivalent to the Thevenin equivalent current based of the Ohm's Law calculations and is higher than the Norton equivalent current, 4.596; however, this is down to fluctuation due to the shorting of the power supply.
         \item Observations regarding the voltage across resistor R3.\\
+        The same can be said of the voltage across R3 for similar reasons as observed in the current across the same resistor and due to Ohm's Law with resistance is constant the current fluctuates meaning the voltage will fluctuate. 
         \item Observations regarding the Thevenin equivalent.\\
+        The Thevenin equivalent is larger than the voltage across the load resistor this is down to the fact the current is concentrated in the circuit with out being divided across the two resistors proportionally thus meaning a higher value for voltage with resistance remaining constant.
         \item Observations regarding the Norton equivalent.\\
+        The Norton equivalent is also much higher than the current across R3 because the resistance in a short circuit is far smaller or non existant when compared the resistance across the resistor.  
     \end{enumerate}
 \end{enumerate}
 
@@ -348,13 +363,13 @@ As a capacitor is charged current will decrease until the capacitor is fully cha
     \begin{enumerate}
         \item Describe the capacitor voltage behavior from 0 through $5\tau$, in terms of initial and final voltage magnitude, linearity and rate of change. \\
         \item Describe the resistor voltage behavior from 0 through $5\tau$, in terms of initial and final voltage magnitude, linearity and rate of change. \\
-        \item To how many volts has $V_{c}$ charged in one time constant?
-        \item To what \% has the capacitor charged to at this point?
-        \item Using the equation in the introduction section of this experiment, show the calculation of $V_{c}$ for a time equal to one time constant.
-        \item How many volts are across the resistor at the end of one time constant? What \% is this of the total possible voltage change?
-        \item From the graphs read the values of capacitor and resistor voltage at 4 minutes.
-        \item Calculate the values of capacitor and resistor voltage at 4 minutes.
-        \item From the results of g and h above, what do you conclude about the accuracy of your graphs?
+        \item To how many volts has $V_{c}$ charged in one time constant? \\
+        \item To what \% has the capacitor charged to at this point? \\
+        \item Using the equation in the introduction section of this experiment, show the calculation of $V_{C}$ for a time equal to one time constant. \\
+        \item How many volts are across the resistor at the end of one time constant? What \% is this of the total possible voltage change? \\
+        \item From the graphs read the values of capacitor and resistor voltage at 4 minutes. \\
+        \item Calculate the values of capacitor and resistor voltage at 4 minutes. \\
+        \item From the results of g and h above, what do you conclude about the accuracy of your graphs? \\
     \end{enumerate}
 \end{enumerate}
 
