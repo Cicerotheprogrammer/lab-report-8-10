@@ -166,7 +166,7 @@ tolerance and there all conditions of the circuit are ideal.
 
 To find the values in the table below utilize the various methods of analysis for the voltage across each resistor then measure the voltage across each resistor. To find the 
 simulation values set up the circuit as shown in figure 8-1 in Matlab then add the ampmeters in series with each resistor as done in the lab and the voltmeters 
-in parallel with each resistor and the readings of both sets of meters will be the simulation values.
+in parallel with each resistor and the readings of both sets of meters will be the simulation values which is shown in Figure 8-2.
 \vspace{.5 cm}
 \begin{center}
     \begin{figure}[H]\label{fig8-2}
@@ -196,24 +196,31 @@ in parallel with each resistor and the readings of both sets of meters will be t
     \end{tabular}
 \end{center}
 
+The data in the table above displays the most accurate method to analyze voltage in a circuit is superposition as in the majority of all cases in the circuit it has the least error in the 
+value when compared to the measured values.
+
+To obtain the data in the table below repeat the process described for the previous table however instead of solving for voltage solve for the current running through each resistor.
+
 \begin{center}
     \small\textbf{Table 8-4: Resistors Current}
     \begin{tabular}{|p{2 cm}|p{2cm}|p{2 cm}|p{2 cm}|p{2 cm}|p{2 cm}|}
         \hline
          & Measured & Mesh Method & Nodal Analysis & Superposition & Simulation \\
         \hline
-        $I_{R1}$ & .803 mA  & .813 mA & .8131 mA & .81305 mA &.8131 mA \\
+        $I_{R1}$ & .803 mA  & .813 mA & .8131 mA & .81305 mA & .8131 mA \\
         \hline
-        $I_{R2}$ & .043 mA & .0406 mA & .0404 mA & .04037 mA  & .04034 mA\\
+        $I_{R2}$ & .043 mA & .0406 mA & .0404 mA & .04037 mA  & .04034 mA \\
         \hline
         $I_{R3}$ & .911 mA & .913 mA & .9128 mA & .91276 mA & .9128 mA \\
         \hline
-        $I_{R4}$ &.825 mA & .8536 mA & .853 mA &  .853 mA & .8534 mA\\
+        $I_{R4}$ &.825 mA & .8536 mA & .853 mA &  .853 mA & .8534 mA \\
         \hline
         $I_{R5}$ & .834 mA & .8271 mA & .872 mA & .873 mA & .8724 mA\\
         \hline
     \end{tabular}
 \end{center}
+
+The data in the table above displays that in most cases the most accurate method to calculate the current across a resistor is 
 
 \begin{center}
     \begin{figure}[H]\label{fig8-2}

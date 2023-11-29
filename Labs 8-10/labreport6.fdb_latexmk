@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701234534 "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" "labreport6.pdf" "labreport6" 1701234535 0
+["pdflatex"] 1701295937 "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" "labreport6.pdf" "labreport6" 1701295940 0
   "C:/Users/pehul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697201433 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/pehul/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1695920014 11548 b28e8abb08eafa9615fe73d2f55e1b8e ""
   "C:/Users/pehul/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695830781 24142036 3926ffd2b37070b3269ffb388ad71743 ""
@@ -216,12 +216,12 @@
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Figure_8-1.png" 1701117527 142153 15a49975f17ec0ef50f917b06533f2a5 ""
-  "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" 1701234532 23597 c8c7e1457baef35162ec1a851373b0c5 ""
+  "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" 1701295933 24182 c34b41fec7aa54b4dfc49c011ea88e09 ""
   "fig8-1.png" 1699496412 15691 1d0b5a635d685b4bffabd662a3272343 ""
   "labreport.sty" 1701117527 787 5f79b04e7ec98989e93f7d2136a8a82c ""
-  "labreport6.aux" 1701234535 4156 e63350f4996e6b69b8f9f993a7a53ef4 "pdflatex"
-  "labreport6.out" 1701234535 4549 079d742fe861723bba1452dca397f467 "pdflatex"
-  "labreport6.tex" 1701234532 23597 c8c7e1457baef35162ec1a851373b0c5 ""
+  "labreport6.aux" 1701295939 4156 a06130a2ddd4af4b394c419d84e28127 "pdflatex"
+  "labreport6.out" 1701295939 4549 079d742fe861723bba1452dca397f467 "pdflatex"
+  "labreport6.tex" 1701295933 24182 c34b41fec7aa54b4dfc49c011ea88e09 ""
   (generated)
   "labreport6.aux"
   "labreport6.log"
