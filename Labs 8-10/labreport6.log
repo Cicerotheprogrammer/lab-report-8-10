@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.27)  28 NOV 2023 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.27)  29 NOV 2023 00:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,7 +562,11 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip66
 \backup@length=\skip67
 \ar@cellbox=\box69
-))) (labreport6.aux)
+))) (labreport6.aux
+
+LaTeX Warning: Label `fig8-2' multiply defined.
+
+)
 \openout1 = `labreport6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -685,93 +689,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
  []
 
 [2] [3]
-<Figure_8-1.png, id=129, 884.44714pt x 328.22626pt>
-File: Figure_8-1.png Graphic file (type png)
-<use Figure_8-1.png>
-Package pdftex.def Info: Figure_8-1.png  used on input line 196.
-(pdftex.def)             Requested size: 455.24408pt x 168.94576pt.
+<fig8-1.png, id=129, 376.40625pt x 144.54pt>
+File: fig8-1.png Graphic file (type png)
+<use fig8-1.png>
+Package pdftex.def Info: fig8-1.png  used on input line 174.
+(pdftex.def)             Requested size: 455.24408pt x 174.82774pt.
 
-Overfull \hbox (2.27618pt too wide) in paragraph at lines 196--196
+Overfull \hbox (2.27618pt too wide) in paragraph at lines 174--174
  [] 
  []
 
-[4 <./Figure_8-1.png>] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[4 <./fig8-1.png>]
+<Figure_8-1.png, id=142, 884.44714pt x 328.22626pt>
+File: Figure_8-1.png Graphic file (type png)
+<use Figure_8-1.png>
+Package pdftex.def Info: Figure_8-1.png  used on input line 221.
+(pdftex.def)             Requested size: 455.24408pt x 168.94576pt.
+
+Overfull \hbox (2.27618pt too wide) in paragraph at lines 221--221
+ [] 
+ []
+
+[5 <./Figure_8-1.png>] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []|\OT1/cmr/m/n/9 Time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 []|\OT1/cmr/m/n/9 Capacitor
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-
- []
-
-
-Overfull \hbox (54.63663pt too wide) in paragraph at lines 403--404
- [] 
- []
-
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 
-Overfull \hbox (54.63663pt too wide) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+
+Overfull \hbox (54.63663pt too wide) in paragraph at lines 428--429
  [] 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Overfull \hbox (54.63663pt too wide) in paragraph at lines 474--475
+ [] 
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
-[9] [10] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+[10] [11] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (labreport6.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `labreport6.out' has not changed.
 (rerunfilecheck)             Checksum: 079D742FE861723BBA1452DCA397F467;4549.
  ) 
 Here is how much of TeX's memory you used:
- 33438 strings out of 475248
- 796606 string characters out of 5757813
+ 33451 strings out of 475248
+ 796803 string characters out of 5757813
  1955801 words of memory out of 5000000
- 54384 multiletter control sequences out of 15000+600000
+ 54395 multiletter control sequences out of 15000+600000
  565070 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,11n,131p,789b,2058s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\pehul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on labreport6.pdf (11 pages, 360101 bytes).
+Output written on labreport6.pdf (12 pages, 376691 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

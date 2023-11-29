@@ -118,13 +118,16 @@ Once a steady state is reached at a factor of $\tau$ the change of voltage is no
 
 \subsection{Network Analysis}
 
+The data below is found by reading the color code nominal value of the resistor and then measure the resistance with the digital multimeter before calculating the percent error 
+by subtracting the color code minus the measured value and then dividing that value by the color code value before multiplying by 100 to find the percentage.  
+
 \begin{center}
     \small\textbf{Table 8-1: Resistors Values}
     \begin{tabular}{|p{3 cm}|p{3cm}|p{3 cm}|p{3 cm}|}
         \hline
         Resistance & Measured $(K\Omega)$ & Color Code $(K\Omega)$ & Error (\%) \\
         \hline
-        $R_{1}$ & $5.047 k\Omega$ & $5.1k\Omega$ & 1.0392 \% \\
+        $R_{1}$ & $5.047 k\Omega$ & $5.1k\Omega$ & 1.0392\% \\
         \hline
         $R_{2}$ & $467.5 \Omega$ & $470\Omega$& .5319\% \\
         \hline
@@ -136,6 +139,12 @@ Once a steady state is reached at a factor of $\tau$ the change of voltage is no
         \hline
     \end{tabular}
 \end{center}
+
+The table reflects the nominal and measured values and the percent error in the color code which the percent error will be within the tolerance of the the nominal value as denoted by
+the color code on the resistor.
+
+To obtain the values in the table below one must use the mesh analysis method to calculate the values for current and then measure the current across each resistor. In order to get the 
+percent error simply subtract the calculated amperage minus the measured amperage and divide by the calculated value before multiplying by 100.
 
 \begin{center}
     \small\textbf{Table 8-2: Mesh Currents}
@@ -152,6 +161,22 @@ Once a steady state is reached at a factor of $\tau$ the change of voltage is no
     \end{tabular}
 \end{center}
 
+The calculated and measured values are different due to the assumptions that the calculated amperage which are the resistor values are the nominal values without the 
+tolerance and there all conditions of the circuit are ideal.
+
+To find the values in the table below utilize the various methods of analysis for the voltage across each resistor then measure the voltage across each resistor. To find the 
+simulation values set up the circuit as shown in figure 8-1 in Matlab then add the ampmeters in series with each resistor as done in the lab and the voltmeters 
+in parallel with each resistor and the readings of both sets of meters will be the simulation values.
+\vspace{.5 cm}
+\begin{center}
+    \begin{figure}[H]\label{fig8-2}
+        \begin{center}
+            \includegraphics[width = 16 cm]{fig8-1}\\
+            \small\textbf{Figure 8-1: Circuit for experiment 8}\\    
+        \end{center}
+    \end{figure}
+\end{center}
+
 \begin{center}
     \small\textbf{Table 8-3: Resistors Voltages}
     \begin{tabular}{|p{2 cm}|p{2cm}|p{2 cm}|p{2 cm}|p{2 cm}|p{2 cm}|}
@@ -164,7 +189,7 @@ Once a steady state is reached at a factor of $\tau$ the change of voltage is no
         \hline
         $V_{R3}$ & 9.123 V & 9.13 V & 9.128 V & 9.158 V & 9.128 V \\
         \hline
-        $V_{R4}$ .852 V & & .854 V & .853 V & .853 V & .8534 V \\
+        $V_{R4}$ & .852 V & .854 V & .853 V & .853 V & .8534 V \\
         \hline
         $V_{R5}$ & .873 V & .8721 V & .872 V & .873 V & .8724 V \\
         \hline
