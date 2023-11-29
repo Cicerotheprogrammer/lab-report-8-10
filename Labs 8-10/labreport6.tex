@@ -110,7 +110,7 @@ of these two values. In the case of Norton equivalent cirucits repeat the proces
 \subsection{Time Constant of a RC Circuit}
 
 The voltage and current change in a capacitor is a natural exponential relationship in the case of charging for voltage the value is found by the expression:
-\[V_{c} = V_{S}(1-e^(-t/\tau))\]
+\[V_{c} = V_{S}(1-e^{(-t/\tau)})\]
 wherein $\tau$ is equal to equivalent resistance times equivalent capacitence and t is the time passed since the switch which determines when voltage is passing through a capacitor.
 Once a steady state is reached at a factor of $\tau$ the change of voltage is no longer significant and that means the capacitor is holding its max charge which is calculated by Q = CV.  
 \pagebreak
@@ -357,18 +357,116 @@ As a capacitor is charged current will decrease until the capacitor is fully cha
     \item From the data obtained in this experiment in a single graph; \\
     \begin{enumerate}
         \item Plot $V_{R}$ vs. time \\
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{axis}
+                    [
+                    title ={$V_{R}$ vs. time},
+                    xlabel = {Voltage - Volts},
+                    ylabel = {Time - seconds},
+                    xmin=0, xmax=360,
+                    ymin=.16, ymax=34.9,
+                    width=\textwidth,
+                    xtick={0,15,30,45,60,75,90,105,120,135,150,165,180,195,210,225,240,255,270,285,300,315,330,345,360},
+                    ytick={.16,1.92,3.23,4.19,5.51,7.38,9.9,13.28,18.01,24.82,34.9},
+                    ]
+                    \addplot[
+                        color=blue,
+                    ]
+                    coordinates{ 
+                    (0,34.9)
+                    (15,24.82)
+                    (30,18.01)
+                    (45,13.28)
+                    (60,9.9)
+                    (75,7.38)
+                    (90,5.51)
+                    (105,4.19)
+                    (120,3.23)
+                    (135,2.37)
+                    (150,1.92)
+                    (165,1.48)
+                    (180,1.19)
+                    (195,.95)
+                    (210,.77)
+                    (225,.63)
+                    (240,.52)
+                    (255,.43)
+                    (270,.36)
+                    (285,.31)
+                    (300,.27)
+                    (315,.23)
+                    (330,.2)
+                    (345,.18)
+                    (360,.16)};
+                \end{axis}
+            \end{tikzpicture}
+        \end{center}
         \item Plot $V_{c}$ vs. time \\
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{axis}
+                    [
+                    title ={$V_{c}$ vs. time},
+                    xlabel = {Voltage - Volts},
+                    ylabel = {Time - seconds},
+                    xmin=0, xmax=360,
+                    ymin=0, ymax=34.74,
+                    width=\textwidth,
+                    xtick={0,15,30,45,60,75,90,105,120,135,150,165,180,195,210,225,240,255,270,285,300,315,330,345,360},
+                    ytick={0,10.08,16.86,21.62,25,27.52,29.39,30.71,31.67,33.71,34.74},
+                    ]
+                    \addplot[
+                        color=blue,
+                    ]
+                    coordinates{ 
+                    (0,0)
+                    (15,10.8)
+                    (30,16.86)
+                    (45,21.62)
+                    (60,25)
+                    (75,27.52)
+                    (90,29.39)
+                    (105,30.71)
+                    (120,31.67)
+                    (135,32.53)
+                    (150,32.98)
+                    (165,33.42)
+                    (180,33.71)
+                    (195,33.95)
+                    (210,34.13)
+                    (225,34.27)
+                    (240,34.38)
+                    (255,34.47)
+                    (270,34.54)
+                    (285,34.59)
+                    (300,34.63)
+                    (315,34.67)
+                    (330,34.7)
+                    (345,34.72)
+                    (360,34.74)};
+                \end{axis}
+            \end{tikzpicture}
+        \end{center}
     \end{enumerate}
     \item After the graphs have been completed, do the following: \\
     \begin{enumerate}
         \item Describe the capacitor voltage behavior from 0 through $5\tau$, in terms of initial and final voltage magnitude, linearity and rate of change. \\
+        The initial voltage is 0.16 V while the final voltage at 5$\tau$ is 34.59 V which the rate of change is a positive exponential curve.
         \item Describe the resistor voltage behavior from 0 through $5\tau$, in terms of initial and final voltage magnitude, linearity and rate of change. \\
+        The intial voltage is 34.9 V and the final voltage at 5$\tau$ is 0.31 V and the rate of change is a negative exponential curve.
         \item To how many volts has $V_{c}$ charged in one time constant? \\
+        21.62 V
         \item To what \% has the capacitor charged to at this point? \\
+        37.77\%
         \item Using the equation in the introduction section of this experiment, show the calculation of $V_{C}$ for a time equal to one time constant. \\
+        \[22.12 = 35(1-e^{-1})\]
         \item How many volts are across the resistor at the end of one time constant? What \% is this of the total possible voltage change? \\
+        13.28 V and 28.55\%
         \item From the graphs read the values of capacitor and resistor voltage at 4 minutes. \\
+        $V_{(R)}$ = .52 V and $V_{(c)}$ = 34.38 V
         \item Calculate the values of capacitor and resistor voltage at 4 minutes. \\
+        \[34.85 = 35(1-e^{(-240/44)})\]
         \item From the results of g and h above, what do you conclude about the accuracy of your graphs? \\
     \end{enumerate}
 \end{enumerate}
