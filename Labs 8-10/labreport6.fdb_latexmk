@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701359779 "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" "labreport6.pdf" "labreport6" 1701359781 0
+["pdflatex"] 1701457321 "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" "labreport6.pdf" "labreport6" 1701457324 0
   "C:/Users/pehul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697201433 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/pehul/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1695920014 11548 b28e8abb08eafa9615fe73d2f55e1b8e ""
   "C:/Users/pehul/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695830781 24142036 3926ffd2b37070b3269ffb388ad71743 ""
@@ -215,13 +215,15 @@
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1686252040 12691 ddae4e0162a664f166015d992388b742 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pehul/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
+  "Fig9-3.png" 1700149602 14051 3e549ad3ee29d00deca46480d003509c ""
   "Figure_8-1.png" 1701117527 142153 15a49975f17ec0ef50f917b06533f2a5 ""
-  "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" 1701359774 24690 86088afd3a1f17898ccc395caf039448 ""
+  "c:/Users/pehul/Documents/GitHub/lab-report-8-10/Labs 8-10/labreport6.tex" 1701457320 27719 42e7f30d8a7528b0e8e4195bdde84922 ""
+  "fig10-1.png" 1700504914 17971 0aeae3807d6e8536bc0ba2614b47fa66 ""
   "fig8-1.png" 1699496412 15691 1d0b5a635d685b4bffabd662a3272343 ""
   "labreport.sty" 1701117527 787 5f79b04e7ec98989e93f7d2136a8a82c ""
-  "labreport6.aux" 1701359781 4156 bd7ab44c7b10bf84a018123226d75b2c "pdflatex"
-  "labreport6.out" 1701359781 4549 079d742fe861723bba1452dca397f467 "pdflatex"
-  "labreport6.tex" 1701359774 24690 86088afd3a1f17898ccc395caf039448 ""
+  "labreport6.aux" 1701457323 4404 15ed08d5fec6e579abf44d206785e4a3 "pdflatex"
+  "labreport6.out" 1701457323 4549 079d742fe861723bba1452dca397f467 "pdflatex"
+  "labreport6.tex" 1701457320 27719 42e7f30d8a7528b0e8e4195bdde84922 ""
   (generated)
   "labreport6.aux"
   "labreport6.log"

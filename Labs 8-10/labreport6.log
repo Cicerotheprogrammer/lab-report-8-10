@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.27)  30 NOV 2023 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.27)  1 DEC 2023 14:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -710,62 +710,74 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 232--232
  [] 
  []
 
-[5 <./Figure_8-1.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+[5 <./Figure_8-1.png>]
+<Fig9-3.png, id=149, 353.52075pt x 173.448pt>
+File: Fig9-3.png Graphic file (type png)
+<use Fig9-3.png>
+Package pdftex.def Info: Fig9-3.png  used on input line 272.
+(pdftex.def)             Requested size: 227.62204pt x 111.67857pt.
+ [6 <./Fig9-3.png>]
+<fig10-1.png, id=157, 436.63126pt x 155.3805pt>
+File: fig10-1.png Graphic file (type png)
+<use fig10-1.png>
+Package pdftex.def Info: fig10-1.png  used on input line 318.
+(pdftex.def)             Requested size: 199.16928pt x 70.87604pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\OT1/cmr/m/n/9 Time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 []|\OT1/cmr/m/n/9 Capacitor
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+[7 <./fig10-1.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
-
- []
-
-
-Overfull \hbox (54.63663pt too wide) in paragraph at lines 440--441
- [] 
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
-
- []
-
-
-Overfull \hbox (54.63663pt too wide) in paragraph at lines 486--487
- [] 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Overfull \hbox (54.63663pt too wide) in paragraph at lines 483--484
+ [] 
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Overfull \hbox (54.63663pt too wide) in paragraph at lines 530--531
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
-[10] [11] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+
+ []
+
+[12] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (labreport6.aux)
  ***********
@@ -780,17 +792,17 @@ Package rerunfilecheck Info: File `labreport6.out' has not changed.
 (rerunfilecheck)             Checksum: 079D742FE861723BBA1452DCA397F467;4549.
  ) 
 Here is how much of TeX's memory you used:
- 33451 strings out of 475248
- 796803 string characters out of 5757813
- 1955801 words of memory out of 5000000
- 54395 multiletter control sequences out of 15000+600000
+ 33478 strings out of 475248
+ 797218 string characters out of 5757813
+ 1957801 words of memory out of 5000000
+ 54419 multiletter control sequences out of 15000+600000
  565070 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,11n,131p,789b,2058s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\pehul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/pehul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on labreport6.pdf (12 pages, 377630 bytes).
+Output written on labreport6.pdf (13 pages, 408810 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -238,7 +238,13 @@ with the resistor being measured.
 The measurements in the figure is the simulated values in the previous tables after running the simulation of the circuit.
 \pagebreak
 
+ 
+
 \subsection{Thevenin and Norton Equivalent Circuits}
+
+To obtain the values in the table below the current through the load resistor and voltage across the load resistor for the thevenin and norton equivalent circuits
+which can be obtained by calculating the thevenin and norton equivalent resistance, the norton current, and the thevenin voltage. Then plug in the load resistor then using 
+current and voltage division to calculate the values in the table below.
 
 
 \begin{center}
@@ -255,6 +261,20 @@ The measurements in the figure is the simulated values in the previous tables af
     \end{tabular}
 \end{center}
 
+The values in the table above display the theoretical values of the thevenin and current equivalents of the circuit.
+
+The values in the table below are found by constructed in Figure 9-1 but remove the load resistor and replace it with a multimeter then measure the voltage across the unconnected leads to find the thevenin voltage and the short circuit 
+currents across the same leads to find the norton current.
+
+\begin{center}
+    \begin{figure}[H]\label{fig9-3}
+        \begin{center}
+            \includegraphics[width = 8cm]{Fig9-3}\\
+            \small\textbf{Figure 9-1: Circuit for Thevenin and Norton Analysis}
+        \end{center}
+    \end{figure}
+\end{center}
+
 \begin{center}
     \small\textbf{Table 9-2: Measured Thevenin and Norton Equivalents}
     \begin{tabular}{|p{3 cm}|p{3cm}|p{3 cm}|p{3 cm}|}      
@@ -268,6 +288,10 @@ The measurements in the figure is the simulated values in the previous tables af
     \end{tabular}
 \end{center}
 
+The data in the table above displays the values measured for the thevenin and norton equivalent circuits and displays the values for $R_{TH}$ and $R_{N}$ are the same and the current, resistance, and voltage are linked using Ohm's Law.  
+
+The data in the table below is found using the same circuit as in figure 9-1 but leaving the load resistor attached rather than replacing it with a multimeter then measure the current and voltage across the load resistor. 
+
 \begin{center}
     \small\textbf{Table 9-3: Measured Voltage and Current for Resistor R3}
     \begin{tabular}{|p{3 cm}|p{3 cm}|p{3 cm}|p{3 cm}|}
@@ -280,10 +304,25 @@ The measurements in the figure is the simulated values in the previous tables af
         \hline
     \end{tabular}
 \end{center}
+
+The data in the table above which is close to the calculated values but different due to the calculation assuming ideal conditions and no tolerance which in the measured values exist.
+
 \pagebreak
 \subsection{Time Constant of a RC Circuit}
 
+To obtain the values in the table below first calculate the time constant and 5 times the time constant which is the equivalent resistance times equivalent capacitence. Then constrcut the circuit in figure 10-1.
+Then measure the current in the circuit every 15 seconds and the intial current. Repeat the proces in the last step again then average the measurements of the two trials and use that current value to calculate the voltage across the resistor and the capacitor.
+
+\begin{figure}[H]\label{fig10-1}
+    \begin{center}
+        \includegraphics[width = 7 cm]{fig10-1}\\
+        \small\textbf{Figure 10-1 Series RC Circuit for Experimental Setup}
+    \end{center}
+\end{figure} 
+
 \begin{center}
+    $\tau$ = 44 seconds  Initial Current = 1.745 mA  \\
+    5$\tau$ =  220 seconds \\
     \small\textbf{Table 10-1: Data Table for RC Time Constant}\\
     \begin{tabular}{|p{2 cm}|p{2 cm}|p{2 cm}|p {2 cm}|p {2 cm}|p{2 cm}|}
         \hline
@@ -344,6 +383,9 @@ The measurements in the figure is the simulated values in the previous tables af
     \end{tabular}
 \end{center}
 
+The data in the table above displays as time passes and the capacitor reaches the steady state there will be less current in the circuit then less voltage across the resistor due to the constant resistance and the current decreasing the voltage will decrease.
+Furthermore, since the voltage in the circuit is constant as the voltage across the resistor decreases the voltage in the capacitor will increase until it reaches its steady state.
+
 \section{Conclusions}
 
 \subsection{Network Analysis}
@@ -393,6 +435,7 @@ As a capacitor is charged current will decrease until the capacitor is fully cha
 \begin{enumerate}
     \item From the data obtained in this experiment in a single graph; \\
     \begin{enumerate}
+        \pagebreak
         \item Plot $V_{R}$ vs. time \\
         \begin{center}
             \begin{tikzpicture}
@@ -439,6 +482,7 @@ As a capacitor is charged current will decrease until the capacitor is fully cha
                 \end{axis}
             \end{tikzpicture}
         \end{center}
+        \pagebreak
         \item Plot $V_{c}$ vs. time \\
         \begin{center}
             \begin{tikzpicture}
